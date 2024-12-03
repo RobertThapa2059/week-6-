@@ -44,35 +44,3 @@ using System.Threading.Tasks;
 
 
 
-class program
-{
-    static void Main(string[] args)
-    {
-      
-        Customer person1 = new Customer(1, "robert", "robertthapat@gmail.com");
-        Customer person2 = new Customer(2, "rob", "rob@gmail.com");
-
-        Console.WriteLine("person  1 information ");
-        Console.WriteLine("Id :" + person1.Id);
-        Console.WriteLine("Name :" + person1.Name);
-        Console.WriteLine("email :" + person1.Email);
-
-        Console.WriteLine();
-
-        Console.WriteLine("person  2 information ");
-        Console.WriteLine("Id :" + person2.Id);
-        Console.WriteLine("Name :" + person2.Name);
-        Console.WriteLine("email :" + person2.Email);
-
-        Console.WriteLine("//n  press any key to continue.........");
-        Console.Read();
-
-
-
-    }
-}
-
-
-
-
-
