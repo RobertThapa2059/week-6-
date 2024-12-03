@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+    class Customer
+    {
+        public int Id { get; set; }
+
+
+
+
+
+        
+
+        public string Name { get; set; }
+        public string Email { get; set; }
+
+        public Customer(int id, string name, string email)
+        {
+        Console.Write("Enter your id:");
+        Id = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter your name:");
+        this.Name = Console.ReadLine();
+        Console.Write("enter your email: ");
+            this.Email = Console.ReadLine();
+
+        Console.WriteLine();
+
+        Console.WriteLine("press Y/y to continue  ");
+        Console.ReadLine();
+        if ( Console.ReadKey =)
+        {
+
+        }
+
+
+        }
+
+    }
+
